@@ -1,0 +1,276 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container for centralizing content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container h1 {
+    margin: 0;
+  }
+  
+  .container p {
+    margin: 10px 0 0;
+  }
+
+/* About Section */
+#about {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+  
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile img {
+    max-width: 400px; 
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bio {
+    max-width: 60%;
+    margin-left: 20px;
+    color: #555; /* Match the text color in the Projects section */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .bio {
+        max-width: 100%;
+    }
+}
+
+  
+
+/* Skills Section Styles */
+#skills {
+    padding: 40px 0;
+}
+
+#skills h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* Add this to your style.css file */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills-list li {
+    margin: 5px;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+
+
+/* Projects Section Styles */
+#projects {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project img {
+    width: 100%; /* Make the images take up the full width of the container */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.2em;
+    line-height: 1.5; /* Adjust line height as needed for better readability */
+    color: #555; /* Adjust text color as needed */
+}
+
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Additional styling for a more modern look */
+  button:focus {
+    outline: none;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+  }
+
+/* Additional Skills */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-list li {
+    margin: 5px;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* Resume Section Styles */
+/* Resume Section Styles */
+#resume {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 40px 0;
+}
+
+#resume h2 {
+    font-size: 2.5em; /* Increase font size for emphasis */
+    margin-bottom: 20px;
+    color: #333; /* Darker text color for better readability */
+}
+
+#resume p {
+    font-size: 1.4em; /* Adjust font size for better readability */
+    line-height: 1.6;
+    color: #555; /* Adjust text color as needed */
+    margin-bottom: 20px;
+}
+
+#resume a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+#resume a:hover {
+    color: #0056b3; /* Change to your desired hover color */
+}
+
+.resume-download-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.resume-download-btn:hover {
+    background-color: #555; /* Change to your desired hover color */
+}
+
+
+/* Contact Section Styles */
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #ffcc00; /* Change to your desired hover color */
+}
+
+
