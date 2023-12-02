@@ -24,6 +24,7 @@ CSS grid for alignments.
 You can clone this repository and run the projects locally to dive deeper into the code.
 
 git clone https://github.com/Humna55/CODSOFT.git
+
 **Feedback**
 Open to feedback and suggestions! Contact.
 
